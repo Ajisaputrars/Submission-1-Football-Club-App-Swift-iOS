@@ -11,13 +11,14 @@
 		91CF5A4B58E9D8C9126C9169 /* Pods_SwiftKADE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B21DA3382550512E41C2C3B /* Pods_SwiftKADE.framework */; };
 		B5BF1BF73FBE8D8BE7ABF4E1 /* Pods_SwiftKADETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0429B8AFDC98C547B67FF2E /* Pods_SwiftKADETests.framework */; };
 		D7D4D5FF217A47DC0008C58D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4D5FE217A47DC0008C58D /* AppDelegate.swift */; };
-		D7D4D601217A47DC0008C58D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4D600217A47DC0008C58D /* ViewController.swift */; };
-		D7D4D604217A47DC0008C58D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D4D602217A47DC0008C58D /* Main.storyboard */; };
+		D7D4D601217A47DC0008C58D /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4D600217A47DC0008C58D /* MainController.swift */; };
 		D7D4D607217A47DC0008C58D /* SwiftKADE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7D4D605217A47DC0008C58D /* SwiftKADE.xcdatamodeld */; };
 		D7D4D609217A47DC0008C58D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D4D608217A47DC0008C58D /* Assets.xcassets */; };
 		D7D4D60C217A47DC0008C58D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D4D60A217A47DC0008C58D /* LaunchScreen.storyboard */; };
 		D7D4D617217A47DC0008C58D /* SwiftKADETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4D616217A47DC0008C58D /* SwiftKADETests.swift */; };
 		D7D4D622217A47DC0008C58D /* SwiftKADEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4D621217A47DC0008C58D /* SwiftKADEUITests.swift */; };
+		D7D4D630217A4CC20008C58D /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D4D62F217A4CC20008C58D /* MainView.xib */; };
+		D7D4D632217A4CD50008C58D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4D631217A4CD50008C58D /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +48,7 @@
 		D0429B8AFDC98C547B67FF2E /* Pods_SwiftKADETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftKADETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D4D5FB217A47DC0008C58D /* SwiftKADE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftKADE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D4D5FE217A47DC0008C58D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7D4D600217A47DC0008C58D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7D4D603217A47DC0008C58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7D4D600217A47DC0008C58D /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		D7D4D606217A47DC0008C58D /* SwiftKADE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftKADE.xcdatamodel; sourceTree = "<group>"; };
 		D7D4D608217A47DC0008C58D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7D4D60B217A47DC0008C58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +59,8 @@
 		D7D4D61D217A47DC0008C58D /* SwiftKADEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftKADEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D4D621217A47DC0008C58D /* SwiftKADEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftKADEUITests.swift; sourceTree = "<group>"; };
 		D7D4D623217A47DC0008C58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D4D62F217A4CC20008C58D /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		D7D4D631217A4CD50008C58D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E22FD316C053B25E21976F2B /* Pods-SwiftKADEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftKADEUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftKADEUITests/Pods-SwiftKADEUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FBCED5B49F27EF3D2BCA39B5 /* Pods-SwiftKADEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftKADEUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftKADEUITests/Pods-SwiftKADEUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,9 +131,12 @@
 		D7D4D5FD217A47DC0008C58D /* SwiftKADE */ = {
 			isa = PBXGroup;
 			children = (
+				D7D4D636217A4DBB0008C58D /* Model */,
+				D7D4D635217A4DB30008C58D /* View */,
+				D7D4D631217A4CD50008C58D /* MainView.swift */,
+				D7D4D634217A4DA90008C58D /* Controller */,
+				D7D4D633217A4D9F0008C58D /* Presenter */,
 				D7D4D5FE217A47DC0008C58D /* AppDelegate.swift */,
-				D7D4D600217A47DC0008C58D /* ViewController.swift */,
-				D7D4D602217A47DC0008C58D /* Main.storyboard */,
 				D7D4D608217A47DC0008C58D /* Assets.xcassets */,
 				D7D4D60A217A47DC0008C58D /* LaunchScreen.storyboard */,
 				D7D4D60D217A47DC0008C58D /* Info.plist */,
@@ -156,6 +161,44 @@
 				D7D4D623217A47DC0008C58D /* Info.plist */,
 			);
 			path = SwiftKADEUITests;
+			sourceTree = "<group>";
+		};
+		D7D4D633217A4D9F0008C58D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D7D4D634217A4DA90008C58D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4D600217A47DC0008C58D /* MainController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7D4D635217A4DB30008C58D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4D637217A4DC70008C58D /* xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D7D4D636217A4DBB0008C58D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7D4D637217A4DC70008C58D /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				D7D4D62F217A4CC20008C58D /* MainView.xib */,
+			);
+			path = xib;
 			sourceTree = "<group>";
 		};
 		EA519D0F565894BC434450C1 /* Frameworks */ = {
@@ -279,9 +322,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D4D630217A4CC20008C58D /* MainView.xib in Resources */,
 				D7D4D60C217A47DC0008C58D /* LaunchScreen.storyboard in Resources */,
 				D7D4D609217A47DC0008C58D /* Assets.xcassets in Resources */,
-				D7D4D604217A47DC0008C58D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,15 +350,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SwiftKADE-checkManifestLockResult.txt",
 			);
@@ -329,15 +368,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SwiftKADETests-checkManifestLockResult.txt",
 			);
@@ -351,8 +386,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftKADE/Pods-SwiftKADE-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
@@ -360,8 +393,6 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
@@ -377,15 +408,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SwiftKADEUITests-checkManifestLockResult.txt",
 			);
@@ -402,7 +429,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7D4D607217A47DC0008C58D /* SwiftKADE.xcdatamodeld in Sources */,
-				D7D4D601217A47DC0008C58D /* ViewController.swift in Sources */,
+				D7D4D632217A4CD50008C58D /* MainView.swift in Sources */,
+				D7D4D601217A47DC0008C58D /* MainController.swift in Sources */,
 				D7D4D5FF217A47DC0008C58D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,14 +467,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D7D4D602217A47DC0008C58D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7D4D603217A47DC0008C58D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D7D4D60A217A47DC0008C58D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
