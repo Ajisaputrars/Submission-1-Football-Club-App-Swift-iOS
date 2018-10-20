@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+protocol TeamView{
+    func startLoading()
+    func finishLoading()
+    func setTeams(_ teams: [Team])
+    func setEmptyTeams()
+}

@@ -14,6 +14,9 @@
 		D749934A217B0E6E006C20AE /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7499349217B0E6E006C20AE /* DetailView.xib */; };
 		D749934C217B0E85006C20AE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749934B217B0E85006C20AE /* DetailView.swift */; };
 		D749934E217B1089006C20AE /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749934D217B1089006C20AE /* Team.swift */; };
+		D7499351217B12AA006C20AE /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7499350217B12AA006C20AE /* TeamView.swift */; };
+		D7499354217B12DC006C20AE /* TeamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7499353217B12DC006C20AE /* TeamService.swift */; };
+		D7499356217B1300006C20AE /* TeamPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7499355217B1300006C20AE /* TeamPresenter.swift */; };
 		D784A1BF217B0A2400EA02CC /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784A1BD217B0A2400EA02CC /* TeamCell.swift */; };
 		D784A1C0217B0A2400EA02CC /* TeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D784A1BE217B0A2400EA02CC /* TeamCell.xib */; };
 		D7D4D5FF217A47DC0008C58D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4D5FE217A47DC0008C58D /* AppDelegate.swift */; };
@@ -56,6 +59,9 @@
 		D7499349217B0E6E006C20AE /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
 		D749934B217B0E85006C20AE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D749934D217B1089006C20AE /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		D7499350217B12AA006C20AE /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		D7499353217B12DC006C20AE /* TeamService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamService.swift; sourceTree = "<group>"; };
+		D7499355217B1300006C20AE /* TeamPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPresenter.swift; sourceTree = "<group>"; };
 		D784A1BD217B0A2400EA02CC /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
 		D784A1BE217B0A2400EA02CC /* TeamCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamCell.xib; sourceTree = "<group>"; };
 		D7D4D5FB217A47DC0008C58D /* SwiftKADE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftKADE.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +124,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D749934F217B1299006C20AE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D7499350217B12AA006C20AE /* TeamView.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D7499352217B12D0006C20AE /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				D7499353217B12DC006C20AE /* TeamService.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 		D7D4D5F2217A47DC0008C58D = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +165,8 @@
 		D7D4D5FD217A47DC0008C58D /* SwiftKADE */ = {
 			isa = PBXGroup;
 			children = (
+				D7499352217B12D0006C20AE /* Api */,
+				D749934F217B1299006C20AE /* Protocol */,
 				D7D4D636217A4DBB0008C58D /* Model */,
 				D7D4D635217A4DB30008C58D /* View */,
 				D7D4D634217A4DA90008C58D /* Controller */,
@@ -177,6 +201,7 @@
 		D7D4D633217A4D9F0008C58D /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				D7499355217B1300006C20AE /* TeamPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -450,12 +475,15 @@
 			files = (
 				D7D4D607217A47DC0008C58D /* SwiftKADE.xcdatamodeld in Sources */,
 				D7D4D632217A4CD50008C58D /* MainView.swift in Sources */,
+				D7499354217B12DC006C20AE /* TeamService.swift in Sources */,
 				D7D4D601217A47DC0008C58D /* MainController.swift in Sources */,
 				D749934C217B0E85006C20AE /* DetailView.swift in Sources */,
 				D749934E217B1089006C20AE /* Team.swift in Sources */,
+				D7499356217B1300006C20AE /* TeamPresenter.swift in Sources */,
 				D7D4D5FF217A47DC0008C58D /* AppDelegate.swift in Sources */,
 				D7499348217B0E4D006C20AE /* DetailController.swift in Sources */,
 				D784A1BF217B0A2400EA02CC /* TeamCell.swift in Sources */,
+				D7499351217B12AA006C20AE /* TeamView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
