@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class TeamCell: UITableViewCell {
     @IBOutlet weak var teamImageView: UIImageView!
@@ -14,12 +15,14 @@ class TeamCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    }
+    
+    func configure(team: Team){
+        self.teamNameLabel.text = team.strTeam
+        teamImageView.kf.setImage(with: URL(string: team.strTeamBadge))
     }
 }
