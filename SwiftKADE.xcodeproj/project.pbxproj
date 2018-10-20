@@ -13,6 +13,7 @@
 		D7499348217B0E4D006C20AE /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7499347217B0E4D006C20AE /* DetailController.swift */; };
 		D749934A217B0E6E006C20AE /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7499349217B0E6E006C20AE /* DetailView.xib */; };
 		D749934C217B0E85006C20AE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749934B217B0E85006C20AE /* DetailView.swift */; };
+		D749934E217B1089006C20AE /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749934D217B1089006C20AE /* Team.swift */; };
 		D784A1BF217B0A2400EA02CC /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784A1BD217B0A2400EA02CC /* TeamCell.swift */; };
 		D784A1C0217B0A2400EA02CC /* TeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D784A1BE217B0A2400EA02CC /* TeamCell.xib */; };
 		D7D4D5FF217A47DC0008C58D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4D5FE217A47DC0008C58D /* AppDelegate.swift */; };
@@ -54,6 +55,7 @@
 		D7499347217B0E4D006C20AE /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		D7499349217B0E6E006C20AE /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
 		D749934B217B0E85006C20AE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D749934D217B1089006C20AE /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		D784A1BD217B0A2400EA02CC /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
 		D784A1BE217B0A2400EA02CC /* TeamCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamCell.xib; sourceTree = "<group>"; };
 		D7D4D5FB217A47DC0008C58D /* SwiftKADE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftKADE.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +204,7 @@
 		D7D4D636217A4DBB0008C58D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D749934D217B1089006C20AE /* Team.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 				D7D4D632217A4CD50008C58D /* MainView.swift in Sources */,
 				D7D4D601217A47DC0008C58D /* MainController.swift in Sources */,
 				D749934C217B0E85006C20AE /* DetailView.swift in Sources */,
+				D749934E217B1089006C20AE /* Team.swift in Sources */,
 				D7D4D5FF217A47DC0008C58D /* AppDelegate.swift in Sources */,
 				D7499348217B0E4D006C20AE /* DetailController.swift in Sources */,
 				D784A1BF217B0A2400EA02CC /* TeamCell.swift in Sources */,
