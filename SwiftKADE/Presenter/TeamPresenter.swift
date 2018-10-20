@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+class TeamPresenter{
+    func getTeam(service: TeamService, view: TeamView){
+        view.startLoading()
+        service.getTeams{ (teams) in
+            view.finishLoading()
+            if teams.count <= 0 {
+                view.setEmptyTeams()
+            } else {
+                view.setTeams(teams)
+            }
+        }
+    }
+}
