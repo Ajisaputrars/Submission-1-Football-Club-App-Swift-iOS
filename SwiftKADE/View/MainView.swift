@@ -9,5 +9,5 @@
 import UIKit
 
 class MainView: UIView {
-
+    @IBOutlet weak var mainTableView: UITableView!
 }

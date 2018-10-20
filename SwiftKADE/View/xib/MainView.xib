@@ -33,6 +33,9 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="K91-3O-lCU" secondAttribute="bottom" id="wUk-2x-JgT"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="mainTableView" destination="K91-3O-lCU" id="aNE-iG-f7o"/>
+            </connections>
         </view>
     </objects>
 </document>

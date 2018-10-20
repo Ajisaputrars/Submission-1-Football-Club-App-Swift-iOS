@@ -10,6 +10,8 @@
 		11C4635788F3B74E00876439 /* Pods_SwiftKADEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFA8603CE1C480058230DED /* Pods_SwiftKADEUITests.framework */; };
 		91CF5A4B58E9D8C9126C9169 /* Pods_SwiftKADE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B21DA3382550512E41C2C3B /* Pods_SwiftKADE.framework */; };
 		B5BF1BF73FBE8D8BE7ABF4E1 /* Pods_SwiftKADETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0429B8AFDC98C547B67FF2E /* Pods_SwiftKADETests.framework */; };
+		D784A1BF217B0A2400EA02CC /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784A1BD217B0A2400EA02CC /* TeamCell.swift */; };
+		D784A1C0217B0A2400EA02CC /* TeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D784A1BE217B0A2400EA02CC /* TeamCell.xib */; };
 		D7D4D5FF217A47DC0008C58D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4D5FE217A47DC0008C58D /* AppDelegate.swift */; };
 		D7D4D601217A47DC0008C58D /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4D600217A47DC0008C58D /* MainController.swift */; };
 		D7D4D607217A47DC0008C58D /* SwiftKADE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7D4D605217A47DC0008C58D /* SwiftKADE.xcdatamodeld */; };
@@ -46,6 +48,8 @@
 		BBFA8603CE1C480058230DED /* Pods_SwiftKADEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftKADEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD36DD6486C6FD986E2EEF4B /* Pods-SwiftKADE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftKADE.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftKADE/Pods-SwiftKADE.release.xcconfig"; sourceTree = "<group>"; };
 		D0429B8AFDC98C547B67FF2E /* Pods_SwiftKADETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftKADETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D784A1BD217B0A2400EA02CC /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		D784A1BE217B0A2400EA02CC /* TeamCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamCell.xib; sourceTree = "<group>"; };
 		D7D4D5FB217A47DC0008C58D /* SwiftKADE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftKADE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D4D5FE217A47DC0008C58D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7D4D600217A47DC0008C58D /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
@@ -133,7 +137,6 @@
 			children = (
 				D7D4D636217A4DBB0008C58D /* Model */,
 				D7D4D635217A4DB30008C58D /* View */,
-				D7D4D631217A4CD50008C58D /* MainView.swift */,
 				D7D4D634217A4DA90008C58D /* Controller */,
 				D7D4D633217A4D9F0008C58D /* Presenter */,
 				D7D4D5FE217A47DC0008C58D /* AppDelegate.swift */,
@@ -181,6 +184,8 @@
 		D7D4D635217A4DB30008C58D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D7D4D631217A4CD50008C58D /* MainView.swift */,
+				D784A1BD217B0A2400EA02CC /* TeamCell.swift */,
 				D7D4D637217A4DC70008C58D /* xib */,
 			);
 			path = View;
@@ -197,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				D7D4D62F217A4CC20008C58D /* MainView.xib */,
+				D784A1BE217B0A2400EA02CC /* TeamCell.xib */,
 			);
 			path = xib;
 			sourceTree = "<group>";
@@ -324,6 +330,7 @@
 			files = (
 				D7D4D630217A4CC20008C58D /* MainView.xib in Resources */,
 				D7D4D60C217A47DC0008C58D /* LaunchScreen.storyboard in Resources */,
+				D784A1C0217B0A2400EA02CC /* TeamCell.xib in Resources */,
 				D7D4D609217A47DC0008C58D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +439,7 @@
 				D7D4D632217A4CD50008C58D /* MainView.swift in Sources */,
 				D7D4D601217A47DC0008C58D /* MainController.swift in Sources */,
 				D7D4D5FF217A47DC0008C58D /* AppDelegate.swift in Sources */,
+				D784A1BF217B0A2400EA02CC /* TeamCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
