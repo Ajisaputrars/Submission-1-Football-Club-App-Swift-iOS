@@ -24,18 +24,34 @@
                     <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cannot fetch data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGE-I1-rIM">
+                    <rect key="frame" x="119" y="323" width="137.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="xj3-oJ-uhp">
+                    <rect key="frame" x="177" y="324" width="20" height="20"/>
+                </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="K91-3O-lCU" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="0cD-pX-eR7"/>
                 <constraint firstItem="K91-3O-lCU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Hrl-Sj-o8Y"/>
+                <constraint firstItem="WGE-I1-rIM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Uix-dO-Qgy"/>
+                <constraint firstItem="xj3-oJ-uhp" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="VAD-DM-Qx8"/>
+                <constraint firstItem="xj3-oJ-uhp" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="WRU-aY-Aox"/>
+                <constraint firstItem="WGE-I1-rIM" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="g7l-bE-c9y"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="K91-3O-lCU" secondAttribute="trailing" id="oIi-fa-kbZ"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="K91-3O-lCU" secondAttribute="bottom" id="wUk-2x-JgT"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="errorLabel" destination="WGE-I1-rIM" id="V6Z-ec-ukX"/>
+                <outlet property="indicatorView" destination="xj3-oJ-uhp" id="DeD-et-psT"/>
                 <outlet property="mainTableView" destination="K91-3O-lCU" id="aNE-iG-f7o"/>
             </connections>
+            <point key="canvasLocation" x="39.5" y="131.5"/>
         </view>
     </objects>
 </document>

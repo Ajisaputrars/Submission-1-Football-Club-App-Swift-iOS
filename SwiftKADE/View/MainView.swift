@@ -10,4 +10,6 @@ import UIKit
 
 class MainView: UIView {
     @IBOutlet weak var mainTableView: UITableView!
+    @IBOutlet weak var errorLabel: UILabel!
+    @IBOutlet weak var indicatorView: UIActivityIndicatorView!
 }
