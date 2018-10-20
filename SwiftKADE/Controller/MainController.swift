@@ -26,6 +26,7 @@ class MainController: UIViewController {
         mainView.mainTableView.delegate = self
         mainView.mainTableView.dataSource = self
         teamPresenter.getTeam(service: TeamService(), view: self)
+        self.title = "Teams"
     }
 }
 
