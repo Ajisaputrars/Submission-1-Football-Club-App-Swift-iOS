@@ -33,7 +33,8 @@ Every class in a project have to do only a specific job, and so does **Service**
 ### **Author**
 
 * **Aji Saputra Raka Siwi**
- This project is free and open. You can participate to this project to make even more better for everybody to learn.
+
+This project is free and open. You can participate to this project to make even more better for everybody to learn.
 
 ### **License**
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details
