@@ -20,14 +20,14 @@ These are the prerequisites before you try to read (and understand) this project
 
 ### **What You Learn**
 These are all about what you will learn from this project:
-##### **Model-View-Presenter (MVP) Design Pattern**
+#### **Model-View-Presenter (MVP) Design Pattern**
 These are main components of MVP design pattern: 
 - **_Model_** : Represent the model of your data. In this project, we will create a **Team** model that contains team name, team description, and team badge link.
 - **_View_** : Represent the view of your app. This view may be vary, it can be class for a ViewController, class for a UITableViewCell, or even an Xib file.
 - **_Presenter_**: Represent the process of how to present the data from the server (in this case, from TheSportsDB API) to the client.
 - **_Controller_**: In MVP design pattern, **Controller** still exist of course, but its function is minimalized. Note that you split all the way the View, Model, and Presenter class, the Controller class can be thinned up, significantly.
 
-##### **Service Class**
+#### **Service Class**
 Every class in a project have to do only a specific job, and so does **Service** class. This class is created to get data from the server, create object based on the **Model** class, and then transfer the object to the **Presenter**.
 
 ### **Author**
