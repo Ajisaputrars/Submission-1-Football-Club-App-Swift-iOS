@@ -19,7 +19,7 @@ These are the prerequisites before you try to read (and understand) this project
 5. You are familiar with the concept of Model-View-Controller design pattern and Model-View-Presenter design pattern as well.
 
 #### **Project Overview**
-
+![][image-1]
 
 ### **What You Learn**
 These are all about what you will learn from this project:
@@ -41,3 +41,5 @@ This project is free and open. You can participate to this project to make even 
 
 ### **License**
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details
+
+[image-1]:	https://github.com/Ajisaputrars/Submission-1-Football-Club-App-Swift-iOS/blob/master/Screenshot/IMG1.png
