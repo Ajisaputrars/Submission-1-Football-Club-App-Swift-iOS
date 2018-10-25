@@ -18,8 +18,12 @@ These are the prerequisites before you try to read (and understand) this project
 4. You are recommended to understand the concept of UITableView dan UITableViewCell in iOS.
 5. You are familiar with the concept of Model-View-Controller design pattern and Model-View-Presenter design pattern as well.
 
-#### **Project Overview**
+### **Project Overview**
+This is what you can expect from this project
+
 ![Screenshot from Submission 1][1]
+
+The main page consists of UITableView only and it has only a UIImageView and a UILabel in a dell. The information is fetched from the TheSportsDB API directly. When a cell is tapped, you will be brought to detail page.
 
 ### **What You Learn**
 These are all about what you will learn from this project:
