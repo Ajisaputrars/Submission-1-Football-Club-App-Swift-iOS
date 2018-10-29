@@ -44,7 +44,7 @@ Every class in a project have to do only a specific job, and so does **Service**
 This project is free and open. You can participate to this project to make even more better for everybody to learn.
 
 ### **License**
-This project is licensed under the GNU General Public License v3.0 - see the [**LICENSE.md**][2] file for the details.
+This project is licensed under the GNU General Public License v3.0 - see the [**LICENSE.md**][2] file for details.
 
 [1]:	https://github.com/Ajisaputrars/Submission-1-Football-Club-App-Swift-iOS/blob/master/Screenshot/IMG3.png
 [2]:	https://github.com/Ajisaputrars/Submission-1-Football-Club-App-Swift-iOS/blob/master/LICENSE
