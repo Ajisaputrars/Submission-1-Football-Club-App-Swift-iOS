@@ -2,7 +2,7 @@
 
 Football Club app uses data from TheSportsDB (open API) and presents the information to the client. This project is built on Swift for iOS and using the same principle of the Kotlin version. 
 
-### **Objectives**
+## **Objectives**
 These are the objectives of this project:
 1. Get the data from TheSportsDB API.
 2. Present the information to the client.
