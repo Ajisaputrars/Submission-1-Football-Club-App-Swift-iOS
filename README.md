@@ -48,6 +48,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [**
 
 ---- 
 
+
 Copyright © 2018 **Aji Saputra Raka Siwi**
 
 [1]:	https://github.com/Ajisaputrars/Submission-1-Football-Club-App-Swift-iOS/blob/master/Screenshot/IMG3.png
